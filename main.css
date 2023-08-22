@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #e7e7e7;
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;/*separa o cabeçalho do formulário*/
+}
+
+header img {
+    height: 80px;
+    margin-right: 24px;
+}
+
+header h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;/*deixa todos os campos na mesma posição*/
+    max-width: 810px;
+    width: 100%;
+    justify-content: space-between;/*distribue o espaçamento entre os elementos*/
+    margin-bottom: 56px;/*margem entre o formulário e tabela*/
+}
+
+form input {/*estilizando os campos*/
+    font-size: 18px;
+    background-color: #a1f5dd;
+    border: none;
+    border-bottom: 2px solid #000;
+    padding: 4px;/*espaço entre os campos*/
+}
+
+form button {
+    background-color: #008594;/*cor do botão adicionar*/
+    color: #fff;/*cor do texto dentro do botão*/
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+}
+
+table {
+    width: 90%;
+}
+
+table th {
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+
+/*.resultado {
+    padding: 8px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #000;
+    border-radius: 3px;
+}*/
